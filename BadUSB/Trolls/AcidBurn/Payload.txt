@@ -10,7 +10,7 @@ REM     Status:  Working
 
 REM     Mod Status:  No Modification Needed
 
-REM     Description:  This Payload Torments Your Target To The Fullest Extent By Exposing Local Microsoft Info Like Email, Passowrd Length, Current User Wifi Name, And More With Roasting Your Victum In The Meantime With Such Info
+REM     Description:  This Payload Torments Your Target To The Fullest Extent By Exposing Local Microsoft Info Like Email, Password Length, Current User Wifi Name, And More With Roasting Your Victum In The Meantime With Such Info
 
 REM     Category:  Trolls
 
